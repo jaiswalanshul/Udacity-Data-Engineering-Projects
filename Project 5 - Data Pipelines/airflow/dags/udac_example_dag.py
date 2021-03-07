@@ -10,10 +10,10 @@ from helpers import SqlQueries
 # AWS_SECRET = os.environ.get('AWS_SECRET')
 
 default_args = {
-    'owner': 'udacity-ahmad-chaiban',
+    'owner': 'udacity-aj',
     'start_date': datetime(2019, 1, 12),
     'depends_on_past': False,
-    'email': ['ahmadchaiban@gmail.com'],
+    'email': ['aj@gmail.com'],
     'email_on_retry': True,
     'retries': 3,
     'retry_delay': timedelta(minutes=5),
